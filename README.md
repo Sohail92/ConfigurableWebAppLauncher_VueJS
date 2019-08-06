@@ -1,4 +1,4 @@
-# configurablewebapplauncher_vuejs
+# Configurable Web App Launcher written in VueJS with Vuetify library. (Babel, ESLint, Material Design Icons included).
 
 ## Project setup
 ```
@@ -24,6 +24,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
