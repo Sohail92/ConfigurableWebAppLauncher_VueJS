@@ -1,23 +1,21 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <AppDisplay msg="Welcome to Your Web App Launcher"/>
-  </div>
+  <v-app>
+    <v-content>
+      <HomeLayout/>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import AppDisplay from './components/AppDisplay.vue'
+import HomeLayout from './components/HomeLayout';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    AppDisplay
-  }
-}
+    HomeLayout,
+  },
+  data: () => ({
+    //
+  }),
+};
 </script>
-
-<style>
-#app {
-
-}
-</style>
