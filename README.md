@@ -1,4 +1,4 @@
-# Configurabl Web App Launcher written in VueJS with Vuetify library. (Babel, ESLint, Material Design Icons included).
+# Configurable Web App Launcher written in VueJS with Vuetify library. (Babel, ESLint, Material Design Icons included).
 
 ## Project setup
 ```
