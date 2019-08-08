@@ -1,29 +1,44 @@
 <template>
-    <v-app>
-        <v-content>
-            <v-container>
-                <v-layout>
-                    <v-card>
-                        <v-card-title>WeatherHub</v-card-title>
-                        <v-card-text>Get weather information from a variety of providers</v-card-text>
-                        <v-card-actions><v-btn text href="http://weatherhub.azurewebsites.net" target="_blank">Click</v-btn></v-card-actions>
-                    </v-card>
-
-                    <v-card>
-                        <v-card-title>To Do List</v-card-title>
-                        <v-card-text>A list of your jobs to do</v-card-text>
-                        <v-card-actions><v-btn text href="http://todolistme.net/" target="_blank">Click</v-btn></v-card-actions>
-                    </v-card>
-
-                    <v-card>
-                        <v-card-title>Speed Test</v-card-title>
-                        <v-card-text>Test your network connection speed</v-card-text>
-                        <v-card-actions><v-btn text href="http://speedtest.net" target="_blank">Click</v-btn></v-card-actions>
-                    </v-card>
-                </v-layout>
-            </v-container>
-        </v-content>
-    </v-app>
+    <v-container>
+        <v-card max-width="344" outlined>
+            <v-list-item three-line>
+                <v-list-item-content>
+                    <v-list-item-title class="headline mb-1">Weather Hub</v-list-item-title>
+                    <v-list-item-subtitle>Up to date weather info from a variety of providers, in one place!</v-list-item-subtitle>
+                </v-list-item-content>
+                <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
+            </v-list-item>
+            <v-card-actions>
+                <v-btn outlined color="blue" href="http://weatherhub.azurewebsites.net" target="_blank" text>Visit</v-btn>
+            </v-card-actions>
+        </v-card>
+        <br />
+        <v-card max-width="344" outlined>
+            <v-list-item three-line>
+                <v-list-item-content>
+                    <v-list-item-title class="headline mb-1">To Do List</v-list-item-title>
+                    <v-list-item-subtitle>A handy app to use as a to-do list.</v-list-item-subtitle>
+                </v-list-item-content>
+                <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
+            </v-list-item>
+            <v-card-actions>
+                <v-btn outlined color="blue" href="http://todolistme.net/" target="_blank" text>Visit</v-btn>
+            </v-card-actions>
+        </v-card>
+        <br />
+        <v-card max-width="344" outlined>
+            <v-list-item three-line>
+                <v-list-item-content>
+                    <v-list-item-title class="headline mb-1">Speed Test</v-list-item-title>
+                    <v-list-item-subtitle>Test your Internet connection with this interactive speed test tool.</v-list-item-subtitle>
+                </v-list-item-content>
+                <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
+            </v-list-item>
+            <v-card-actions>
+                <v-btn outlined color="blue" href="http://speedtest.net" target="_blank" text>Visit</v-btn>
+            </v-card-actions>
+        </v-card>
+    </v-container>
 </template>
 
 <script>
@@ -38,4 +53,7 @@
 </script>
 
 <style scoped>
+    .headline{
+        color:#2196F3;
+    }
 </style>

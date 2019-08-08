@@ -1,15 +1,10 @@
-//Core Components
-
-import Navigation from '../components/core/NavigationDrawer.vue';
-import PageFooter from '../components/core/PageFooter.vue';
-import Toolbar from '../components/core/Toolbar.vue';
+import HomeLayout from '../components/HomeLayout.vue'
+import DarkLayout from '../components/DarkLayout.vue';
 
 function setupComponents(Vue) {
-    Vue.component('navigation', Navigation);
-    Vue.component('page-footer', PageFooter);
-    Vue.component('toolbar', Toolbar);
+    Vue.component('home-layout', HomeLayout);
+    Vue.component('dark-layout', DarkLayout);
 }
-
 
 export {
     setupComponents
