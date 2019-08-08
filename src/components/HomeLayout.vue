@@ -1,6 +1,6 @@
 <template>
-    <v-container>
-        <v-card max-width="344" outlined>
+    <v-container fluid>
+        <v-card class="itemCard" max-width="344" outlined>
             <v-list-item three-line>
                 <v-list-item-content>
                     <v-list-item-title class="headline mb-1">Weather Hub</v-list-item-title>
@@ -12,8 +12,7 @@
                 <v-btn outlined color="blue" href="http://weatherhub.azurewebsites.net" target="_blank" text>Visit</v-btn>
             </v-card-actions>
         </v-card>
-        <br />
-        <v-card max-width="344" outlined>
+        <v-card class="itemCard" max-width="344" outlined>
             <v-list-item three-line>
                 <v-list-item-content>
                     <v-list-item-title class="headline mb-1">To Do List</v-list-item-title>
@@ -25,8 +24,7 @@
                 <v-btn outlined color="blue" href="http://todolistme.net/" target="_blank" text>Visit</v-btn>
             </v-card-actions>
         </v-card>
-        <br />
-        <v-card max-width="344" outlined>
+        <v-card class="itemCard" max-width="344" outlined>
             <v-list-item three-line>
                 <v-list-item-content>
                     <v-list-item-title class="headline mb-1">Speed Test</v-list-item-title>
@@ -55,5 +53,8 @@
 <style scoped>
     .headline{
         color:#2196F3;
+    }
+    .itemCard{
+        margin:45px;
     }
 </style>
