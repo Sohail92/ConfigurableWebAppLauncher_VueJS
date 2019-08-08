@@ -24,4 +24,4 @@ npm run test
 ```
 npm run lint
 ```
-![AppImage](https://github.com/Sohail92/ConfigurableWebAppLauncher_VueJS/blob/master/Screenshot.PNG)
+![AppImage](https://github.com/Sohail92/ConfigurableWebAppLauncher_VueJS/blob/master/ss.png)
